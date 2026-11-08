@@ -9,6 +9,7 @@
 |---|---|---|
 | `/` | `index.html` | হোম: সুবিধা, তিন ধাপে শুরু, দাম (ফ্রি / পেইড — যোগাযোগ), সাধারণ প্রশ্ন, ডাউনলোড |
 | `/privacy/` | `privacy/index.html` | গোপনীয়তা নীতি, বাংলা + ইংরেজি (স্টোরের Privacy Policy লিংক) |
+| `/delete-account/` | `delete-account/index.html` | অ্যাকাউন্ট ও সব তথ্য মোছার নিয়ম, বাংলা + ইংরেজি (Play Data safety ফর্মে এই লিংক দিন) |
 | ভুল ঠিকানা | `404.html` | "পাতাটি পাওয়া যায়নি" |
 
 বাকি ফাইল: `assets/style.css` (সব ডিজাইন), `assets/logo-*.png`, `favicon.*`, `apple-touch-icon.png`, `robots.txt`, `vercel.json` (পরিষ্কার URL ও নিরাপত্তা হেডার)।
