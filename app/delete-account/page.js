@@ -1,49 +1,22 @@
-<!doctype html>
-<html lang="bn">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>অ্যাকাউন্ট মোছা — লেনদেন হিসাব | Delete account</title>
-<meta name="description" content="লেনদেন হিসাব অ্যাপের অ্যাকাউন্ট ও সব তথ্য মোছার নিয়ম (How to delete your Lenden Hisab account).">
-<meta name="theme-color" content="#057a55">
-<meta property="og:title" content="লেনদেন হিসাব — দোকানের বাকির খাতা">
-<meta property="og:description" content="ক্রেতার বাকি, সরবরাহকারীর দেনা আর আদায়ের হিসাব এক অ্যাপে। ইন্টারনেট ছাড়াই চলে।">
-<meta property="og:image" content="/assets/logo-512.png">
-<meta property="og:type" content="website">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css">
-</head>
-<body>
+/** অ্যাকাউন্ট ও তথ্য মোছার নিয়ম — Play Data safety ফর্মে এই পাতার লিংক। */
+export const metadata = {
+  title: 'অ্যাকাউন্ট মোছা | Delete account',
+  description: 'লেনদেন হিসাব অ্যাপের অ্যাকাউন্ট ও সব তথ্য মোছার নিয়ম (How to delete your Lenden Hisab account).',
+};
+export default function Page() {
+  return (
+    <>
 
-<header class="nav">
-  <div class="wrap">
-    <a class="brand" href="/"><img src="/assets/logo-192.png" alt="" width="36" height="36">লেনদেন হিসাব</a>
-    <nav class="nav-links" aria-label="প্রধান">
-      <a href="/#features">সুবিধা</a>
-      <a href="/#how">কীভাবে চলে</a>
-      <a href="/#pricing">দাম</a>
-      <a href="/#faq">প্রশ্ন</a>
-      <a class="btn sm" href="/#download">ডাউনলোড</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-<div class="wrap doc">
+<div className="wrap doc">
   <h1>অ্যাকাউন্ট ও সব তথ্য মোছা</h1>
-  <div class="muted">লেনদেন হিসাব · <a href="#english">English below</a></div>
+  <div className="muted">লেনদেন হিসাব · <a href="#english">English below</a></div>
 
-  <div class="card" style="margin-top:16px">
+  <div className="card" style={{ marginTop: '16px' }}>
     <h2>কীভাবে মুছবেন</h2>
     <ol>
       <li>আপনার অ্যাকাউন্টের ইমেইল থেকে
         <a href="mailto:support@lendenhisab.com?subject=Lenden%20Hisab%20-%20account%20deletion%20request">support@lendenhisab.com</a>
-        ঠিকানায় &quot;অ্যাকাউন্ট মুছুন&quot; লিখে পাঠান।</li>
+        ঠিকানায় "অ্যাকাউন্ট মুছুন" লিখে পাঠান।</li>
       <li>আমরা অ্যাকাউন্টটি আপনারই কিনা মিলিয়ে দেখব।</li>
       <li>৩০ দিনের মধ্যে অ্যাকাউন্ট ও সব তথ্য মুছে আপনাকে জানানো হবে।</li>
     </ol>
@@ -66,12 +39,12 @@
     </p>
   </div>
 
-  <div class="card" style="margin-top:24px" id="english" lang="en">
-    <h1 style="font-family:system-ui,sans-serif">Delete your account and data</h1>
+  <div className="card" style={{ marginTop: '24px' }} id="english" lang="en">
+    <h1 style={{ fontFamily: 'system-ui,sans-serif' }}>Delete your account and data</h1>
     <h2>How to delete</h2>
     <ol>
       <li>Email <a href="mailto:support@lendenhisab.com?subject=Lenden%20Hisab%20-%20account%20deletion%20request">support@lendenhisab.com</a>
-        from your account email with &quot;delete my account&quot;.</li>
+        from your account email with "delete my account".</li>
       <li>We verify that the account is yours.</li>
       <li>Within 30 days the account and all data are deleted and we let you know.</li>
     </ol>
@@ -90,18 +63,8 @@
     </p>
   </div>
 </div>
-</main>
 
-<footer>
-  <div class="wrap">
-    <span>© ২০২৬ লেনদেন হিসাব</span>
-    <nav aria-label="ফুটার">
-      <a href="/privacy/">গোপনীয়তা নীতি</a>
-      <a href="/delete-account/">অ্যাকাউন্ট মোছা</a>
-      <a href="mailto:support@lendenhisab.com">যোগাযোগ</a>
-    </nav>
-  </div>
-</footer>
 
-</body>
-</html>
+    </>
+  );
+}
