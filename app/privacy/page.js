@@ -1,47 +1,20 @@
-<!doctype html>
-<html lang="bn">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>গোপনীয়তা নীতি — লেনদেন হিসাব | Privacy Policy</title>
-<meta name="description" content="লেনদেন হিসাব অ্যাপের গোপনীয়তা নীতি (Privacy Policy of the Lenden Hisab app).">
-<meta name="theme-color" content="#057a55">
-<meta property="og:title" content="লেনদেন হিসাব — দোকানের বাকির খাতা">
-<meta property="og:description" content="ক্রেতার বাকি, সরবরাহকারীর দেনা আর আদায়ের হিসাব এক অ্যাপে। ইন্টারনেট ছাড়াই চলে।">
-<meta property="og:image" content="/assets/logo-512.png">
-<meta property="og:type" content="website">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" href="/favicon.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/style.css">
-</head>
-<body>
+/** গোপনীয়তা নীতি (বাংলা + ইংরেজি) — Play Store-এর Privacy Policy লিংক এই পাতা। */
+export const metadata = {
+  title: 'গোপনীয়তা নীতি | Privacy Policy',
+  description: 'লেনদেন হিসাব অ্যাপের গোপনীয়তা নীতি (Privacy Policy of the Lenden Hisab app).',
+};
+export default function Page() {
+  return (
+    <>
 
-<header class="nav">
-  <div class="wrap">
-    <a class="brand" href="/"><img src="/assets/logo-192.png" alt="" width="36" height="36">লেনদেন হিসাব</a>
-    <nav class="nav-links" aria-label="প্রধান">
-      <a href="/#features">সুবিধা</a>
-      <a href="/#how">কীভাবে চলে</a>
-      <a href="/#pricing">দাম</a>
-      <a href="/#faq">প্রশ্ন</a>
-      <a class="btn sm" href="/#download">ডাউনলোড</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-<div class="wrap doc">
+<div className="wrap doc">
       
       <h1>গোপনীয়তা নীতি</h1>
-      <div class="muted">সর্বশেষ হালনাগাদ: ৮ নভেম্বর ২০২৬ · <a href="#english">English below</a></div>
+      <div className="muted">সর্বশেষ হালনাগাদ: ৮ নভেম্বর ২০২৬ · <a href="#english">English below</a></div>
 
-      <div class="card" style="margin-top:16px">
+      <div className="card" style={{ marginTop: '16px' }}>
         <p>
-          &quot;লেনদেন হিসাব&quot; দোকানদারদের বাকি ও জমার হিসাব রাখার অ্যাপ। এই পাতায় লেখা আছে অ্যাপ কী তথ্য
+          "লেনদেন হিসাব" দোকানদারদের বাকি ও জমার হিসাব রাখার অ্যাপ। এই পাতায় লেখা আছে অ্যাপ কী তথ্য
           রাখে, কোথায় রাখে, কেন রাখে এবং আপনি কীভাবে তা মুছতে পারেন।
         </p>
 
@@ -53,7 +26,7 @@
           </li>
           <li>
             <b>অ্যাকাউন্ট (সিংক চালু করলে):</b> ইমেইল ও পাসওয়ার্ড (পাসওয়ার্ড এনক্রিপ্ট করা থাকে, কেউ দেখতে পায়
-            না); ইচ্ছা হলে আপনার নাম ও মোবাইল নম্বর (&quot;মালিকের পরিচয়&quot;)।
+            না); ইচ্ছা হলে আপনার নাম ও মোবাইল নম্বর ("মালিকের পরিচয়")।
           </li>
           <li>
             <b>ছবি ও ফাইল (আপনি যোগ করলে):</b> ক্রেতার প্রোফাইল ছবি, এন্ট্রির সঙ্গে যোগ করা ছবি এবং (পেইড প্ল্যানে)
@@ -74,11 +47,11 @@
             <b>ব্যবহারের সময়:</b> অ্যাপ শেষ কখন সিংক হয়েছে ও অ্যাপের সংস্করণ (সহায়তা ও সমস্যা খোঁজার জন্য)।
           </li>
           <li>
-            <b>কন্টাক্ট:</b> আপনি &quot;কন্টাক্ট থেকে যোগ&quot; বাছলে শুধু যে কন্টাক্টটি বেছে নেন তার নাম ও
+            <b>কন্টাক্ট:</b> আপনি "কন্টাক্ট থেকে যোগ" বাছলে শুধু যে কন্টাক্টটি বেছে নেন তার নাম ও
             নম্বর নেওয়া হয়। পুরো কন্টাক্ট তালিকা কোথাও পাঠানো হয় না।
           </li>
           <li>
-            <b>সহায়তার ইমেইল:</b> আপনি নিজে &quot;মতামত পাঠান&quot; থেকে ইমেইল পাঠালে তাতে আপনার লেখা, নাম,
+            <b>সহায়তার ইমেইল:</b> আপনি নিজে "মতামত পাঠান" থেকে ইমেইল পাঠালে তাতে আপনার লেখা, নাম,
             দোকান, ইমেইল, মোবাইল, ফোনের মডেল, Android সংস্করণ ও অ্যাপ সংস্করণ যায়। পাঠানোর আগে আপনি সব দেখতে পান।
           </li>
         </ul>
@@ -96,7 +69,7 @@
           </li>
           <li>সিংক বন্ধ থাকলে কোনো হিসাব ফোনের বাইরে যায় না।</li>
           <li>
-            &quot;দোকানের ব্যাকআপ PDF&quot; আপনার ফোনেই বানানো হয়; কোথায় রাখবেন (ফোন, গুগল ড্রাইভ, WhatsApp) সেটা আপনি
+            "দোকানের ব্যাকআপ PDF" আপনার ফোনেই বানানো হয়; কোথায় রাখবেন (ফোন, গুগল ড্রাইভ, WhatsApp) সেটা আপনি
             বাছেন, আমাদের সার্ভারে যায় না।
           </li>
         </ul>
@@ -122,7 +95,7 @@
           <li>
             <b>পুরো অ্যাকাউন্ট ও সব তথ্য মুছতে:</b> অ্যাকাউন্টের ইমেইল থেকে
             <a href="mailto:support@lendenhisab.com?subject=Lenden%20Hisab%20-%20account%20deletion%20request">support@lendenhisab.com</a>
-            ঠিকানায় &quot;অ্যাকাউন্ট মুছুন&quot; লিখে পাঠান; ৩০ দিনের মধ্যে আপনার দোকান, ক্রেতা, এন্ট্রি, ছবি, ফাইল ও
+            ঠিকানায় "অ্যাকাউন্ট মুছুন" লিখে পাঠান; ৩০ দিনের মধ্যে আপনার দোকান, ক্রেতা, এন্ট্রি, ছবি, ফাইল ও
             কর্মচারীর অ্যাকাউন্ট সার্ভার থেকে স্থায়ীভাবে মুছে দেওয়া হবে। বিস্তারিত:
             <a href="/delete-account/">অ্যাকাউন্ট মোছার পাতা</a>।
           </li>
@@ -144,9 +117,9 @@
         </p>
       </div>
 
-      <div class="card" style="margin-top:24px" id="english" lang="en">
-        <h1 style="font-family:system-ui,sans-serif">Privacy Policy</h1>
-        <div class="muted">Last updated: 8 November 2026</div>
+      <div className="card" style={{ marginTop: '24px' }} id="english" lang="en">
+        <h1 style={{ fontFamily: 'system-ui,sans-serif' }}>Privacy Policy</h1>
+        <div className="muted">Last updated: 8 November 2026</div>
         <p>
           Lenden Hisab is a credit ledger app for shopkeepers. This page explains what the app stores, where, why,
           and how you can delete it.
@@ -159,7 +132,7 @@
           </li>
           <li>
             <b>Account (if you turn on sync):</b> email and password (stored encrypted); optionally your name and
-            mobile number (&quot;Owner details&quot;).
+            mobile number ("Owner details").
           </li>
           <li>
             <b>Photos and files (only what you add):</b> customer profile photos, photos attached to entries and (on the
@@ -174,7 +147,7 @@
           <li><b>Notifications:</b> a push token to send announcements (can be turned off in Settings).</li>
           <li><b>Usage time:</b> when the app last synced and the app version (for support and troubleshooting).</li>
           <li>
-            <b>Contacts:</b> when you choose &quot;add from contacts&quot;, only the contact you pick is read. Your
+            <b>Contacts:</b> when you choose "add from contacts", only the contact you pick is read. Your
             contact list is never uploaded.
           </li>
           <li>
@@ -187,7 +160,7 @@
         <p>
           Records are stored on your phone first and the app works offline. If you create an account and turn on
           sync, a copy is kept on a secure cloud server (Supabase) so you can restore it and share a shop with staff.
-          With sync off, nothing leaves your phone. The &quot;shop backup PDF&quot; is created on your phone; where you save
+          With sync off, nothing leaves your phone. The "shop backup PDF" is created on your phone; where you save
           it (phone, Google Drive, WhatsApp) is your choice and it is not sent to our server.
         </p>
         <h2>How it is used and who can see it</h2>
@@ -202,7 +175,7 @@
           You can archive or permanently delete a shop in the app; deletion also removes it from the server.
           <b>To delete your whole account and all data:</b> email
           <a href="mailto:support@lendenhisab.com?subject=Lenden%20Hisab%20-%20account%20deletion%20request">support@lendenhisab.com</a>
-          from your account email with &quot;delete my account&quot;. Within 30 days your shops, customers, entries, photos,
+          from your account email with "delete my account". Within 30 days your shops, customers, entries, photos,
           files and staff accounts are permanently removed from the server. Details: <a href="/delete-account/">account deletion page</a>.
         </p>
         <h2>Security</h2>
@@ -218,18 +191,8 @@
         </p>
       </div>
     </div>
-</main>
 
-<footer>
-  <div class="wrap">
-    <span>© ২০২৬ লেনদেন হিসাব</span>
-    <nav aria-label="ফুটার">
-      <a href="/privacy/">গোপনীয়তা নীতি</a>
-      <a href="/delete-account/">অ্যাকাউন্ট মোছা</a>
-      <a href="mailto:support@lendenhisab.com">যোগাযোগ</a>
-    </nav>
-  </div>
-</footer>
 
-</body>
-</html>
+    </>
+  );
+}
