@@ -38,7 +38,7 @@ npm run build     # ডিপ্লয়ের আগে একবার চা
 - **WhatsApp:** পেমেন্টের মেসেজ যায় `WHATSAPP_NUMBER` (8801537544645)-এ; মেসেজে মেয়াদ, টাকা, দোকান কোড, TrxID, পাঠানোর নম্বর থাকে। মালিক মিলিয়ে অ্যাডমিন প্যানেল থেকে প্ল্যান চালু করেন।
 - **Play নিয়ম:** Play-এর অ্যাপ থেকে `/plans/`-এর লিংক বা পেমেন্টের নির্দেশনা দেওয়া যাবে না; ইউজারকে অ্যাপের বাইরে (ফেসবুক, WhatsApp, ফোন) থেকে জানাতে হবে।
 - **প্ল্যানের সুবিধা** অ্যাপের প্ল্যান পাতার (`app/plans.tsx`) সঙ্গে মিলিয়ে রাখা।
-- **ডাউনলোড বোতাম:** `app/page.js`-এর শেষে। "APK ডাউনলোড করুন" → `https://github.com/kamalhossan/lendenhisabwebsite/releases/latest/download/lenden-hisab.apk` (GitHub Releases; রিপো public)। নতুন বিল্ড: Releases → নতুন ট্যাগ → APK **`lenden-hisab.apk`** নামে তুলে Publish। শুধু OTA হলে নতুন APK লাগে না।
+- **ডাউনলোড বোতাম:** `app/page.js`-এর শেষে (`#download`), একটাই বোতাম "Google Play থেকে ডাউনলোড করুন" → `https://play.google.com/store/apps/details?id=com.kamalhossan.lendenhisab`। GitHub APK লিংক আর নেই (২১ নভেম্বর ২০২৬)।
   - Google Play বোতাম এখনো "শিগগির"; প্রকাশ হলে `href="#"`-এর জায়গায় স্টোরের লিংক দিন আর `aria-disabled="true"` তুলে দিন।
 - **যোগাযোগের ইমেইল:** `support@lendenhisab.com` (Namecheap forwarding → মালিকের Gmail)।
 - **গোপনীয়তা নীতি:** অ্যাপে নতুন ধরনের তথ্য রাখা শুরু করলে `app/privacy/page.js` তারিখসহ হালনাগাদ। একই লেখা অ্যাপ প্রজেক্টের `store/privacy/index.html`-এও আছে।

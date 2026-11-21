@@ -177,12 +177,10 @@ export default function Page() {
       <div className="download">
         <div>
           <h2>আজই হিসাব রাখা শুরু করুন</h2>
-          <p>Android ফোনের জন্য। ফ্রি ডাউনলোড।</p>
-          <p className="small" style={{ marginTop: '8px' }}>APK নামানোর পর খুলুন। ফোন "অজানা উৎস" বা "এই উৎস থেকে ইনস্টল" জানতে চাইলে অনুমতি দিন।</p>
+          <p>Android ফোনের জন্য। Google Play থেকে ফ্রি ডাউনলোড করুন।</p>
         </div>
         <div className="cta">
-          <a className="btn" href="https://github.com/kamalhossan/lendenhisabwebsite/releases/latest/download/lenden-hisab.apk" rel="noopener">APK ডাউনলোড করুন</a>
-          <a className="btn ghost" href="#" aria-disabled="true" title="শিগগির আসছে">Google Play — শিগগির</a>
+          <a className="btn" href="https://play.google.com/store/apps/details?id=com.kamalhossan.lendenhisab" target="_blank" rel="noopener">Google Play থেকে ডাউনলোড করুন</a>
         </div>
       </div>
     </div>

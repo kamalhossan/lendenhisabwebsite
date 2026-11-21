@@ -31,9 +31,8 @@ next.config.mjs          trailingSlash: true (পুরোনো /privacy/ ঠ�
 - হালকা রাখা: ছবি/ফন্ট ছোট, কোনো ভারী JS বা অ্যানিমেশন নয় (ইউজাররা লো-এন্ড ফোনে, ধীর নেটে)।
 
 ## ৪. ডাউনলোড
-- "APK ডাউনলোড করুন" বোতাম (`app/page.js`) → `https://github.com/kamalhossan/lendenhisabwebsite/releases/latest/download/lenden-hisab.apk` (GitHub Releases, রিপো **public**, ফাইলের নাম ঠিক `lenden-hisab.apk`)।
-- নতুন APK বিল্ড দিলে: GitHub → Releases → নতুন ট্যাগ (যেমন v1.0.1) → APK `lenden-hisab.apk` নামে আপলোড → Publish। সাইটের লিংক বদলাতে হয় না। শুধু JS (OTA) বদলে নতুন APK লাগে না। APK >১০০ MB হলে রিপো/Vercel-এ রাখা যায় না।
-- Google Play বোতাম এখনো "শিগগির"; স্টোরে প্রকাশ হলে `href="#"`-এর জায়গায় লিংক বসিয়ে `aria-disabled="true"` তুলতে হবে। অ্যাপ ইতিমধ্যে APKPure-এ (`com.kamalhossan.lendenhisab`) জমা।
+- ২১ নভেম্বর ২০২৬ থেকে ডাউনলোডের **একটাই বোতাম: Google Play** (`app/page.js`, `#download`) → `https://play.google.com/store/apps/details?id=com.kamalhossan.lendenhisab` (নতুন ট্যাবে)। GitHub APK লিংক ও "অজানা উৎস" নির্দেশ সরানো হয়েছে (মালিকের সিদ্ধান্ত)। পুরোনো GitHub Release ফাইলটা রিপোতে থাকলেও সাইটে আর লিংক নেই।
+- অ্যাপ APKPure-এও আছে (`com.kamalhossan.lendenhisab`), তবে সাইটে শুধু Play।
 
 ## ৫. কনটেন্ট নিয়ম
 - দাম (২০ নভেম্বর ২০২৬): একটাই পেইড প্ল্যান — ১ মাস ৳৫৯, ৩ মাস ৳১৬৫, ৬ মাস ৳২৯৯, ১২ মাস ৳৫৪৯ (প্রতিযোগীর চেয়ে ~২৫% কম); বড় ব্যবসার জন্য পরে প্ল্যান বদলাতে পারে। পেমেন্ট: পার্সোনাল বিকাশে Send Money → WhatsApp (01537544645)-এ দোকান কোড + TrxID → মালিক অ্যাডমিন থেকে চালু; Bangla QR (Bank Asia) এলে নম্বরের জায়গায় QR। বিকাশ নম্বর `app/plans/plans-data.js`-এর `BKASH_NUMBER`-এ (এখনো খালি `01XXXXXXXXX`)। Play অ্যাপ থেকে এই পাতায় লিংক নয় (Play payments policy); ওয়েবসাইটে দেখানো ঠিক আছে। পেইডের সুবিধা অ্যাপের সঙ্গে মেলাতে হবে: আনলিমিটেড ক্রেতা-সরবরাহকারী, একাধিক দোকান, কর্মচারী অ্যাকাউন্ট, ফাইল সংযুক্তি ও বাড়তি ছবি, **অটো ব্যাকআপ ও গুগল ড্রাইভে রাখা**; ফ্রি = ৫০ ক্রেতা+সরবরাহকারী, ১ দোকান, প্রতি এন্ট্রিতে ১ ছবি, হাতে PDF ব্যাকআপ যতবার ইচ্ছা (১৪ নভেম্বর ২০২৬ থেকে); ১ মাসের ফ্রি ট্রায়াল।
