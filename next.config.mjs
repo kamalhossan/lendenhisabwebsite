@@ -9,16 +9,32 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: '/:path*',
+        source: "/:path*",
         headers: [
-          { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-          { key: 'X-Frame-Options', value: 'DENY' },
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "X-Frame-Options", value: "DENY" },
         ],
       },
       {
-        source: '/assets/:path*',
-        headers: [{ key: 'Cache-Control', value: 'public, max-age=604800' }],
+        source: "/assets/:path*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=604800" }],
+      },
+    ];
+  },
+  async redirects() {
+    return [
+      {
+        source: "/app",
+        destination:
+          "https://play.google.com/store/apps/details?id=com.kamalhossan.lendenhisab&referrer=utm_source%3Dwhatsapp%26utm_medium%3Dmessage",
+        permanent: false,
+      },
+      {
+        source: "/fb",
+        destination:
+          "https://play.google.com/store/apps/details?id=com.kamalhossan.lendenhisab&referrer=utm_source%3Dfacebook%26utm_medium%3Dpage",
+        permanent: false,
       },
     ];
   },
